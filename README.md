@@ -7,7 +7,7 @@ Enhanced Morse Code parser and playback application for the **Flipper Zero**.
 
 ---
 
-## 📟 Features
+## Features
 - Live Morse keying with adjustable **volume** and **Dit length**
 - **Menu system** with:
   - **Erase** – clear current buffer
@@ -20,7 +20,7 @@ Enhanced Morse Code parser and playback application for the **Flipper Zero**.
 
 ---
 
-## 🎮 Controls
+## Controls
 **Main screen**
 - **Up/Down** – adjust volume  
 - **Left/Right** – adjust Dit (dot) length in ms  
@@ -40,7 +40,7 @@ Enhanced Morse Code parser and playback application for the **Flipper Zero**.
 
 ---
 
-## 🛠️ Building
+## Building
 From the firmware root:
 
 ```bash
@@ -57,12 +57,12 @@ Copy it to your Flipper Zero `apps/` folder to install.
 
 ---
 
-## 🧩 Requirements
+## Requirements
 - Tested for Flipper Zero Firmware 1.3.3-rc (fw 86)  
 - FBT build system (`./fbt`)  
 
 ---
 
-## 🪄 Credits
+## Credits
 Based on the original **Morse Code** application by @wh00hw, extended with lookup mode, volume/delay control, and playback cancellation.  
 Developed by **a26blass**.
