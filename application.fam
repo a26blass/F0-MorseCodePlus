@@ -1,0 +1,16 @@
+App(
+    appid="morse_code_plus",
+    name="Morse Code Plus",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="morse_code_plus_app",
+    requires=[
+        "gui",
+    ],
+    stack_size=1 * 1024,
+    order=20,
+    fap_icon="morse_code_plus_10px.png",
+    fap_category="Media",
+    fap_author="@wh00hw & @xMasterX // Modified by @a26blass",
+    fap_version="1.0",
+    fap_description="Simple Morse Code parser",
+)
